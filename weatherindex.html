@@ -53,7 +53,7 @@
 
     var city = document.getElementById("city").value;
     console.log(city);
-    fetch('http://api.openweathermap.org/geo/1.0/direct?q='+city+',&limit=1&appid=6e34a375a68df79281221dcfad22715c').then(res => res.json()).then(data => {
+    fetch('https://api.openweathermap.org/geo/1.0/direct?q='+city+',&limit=1&appid=6e34a375a68df79281221dcfad22715c').then(res => res.json()).then(data => {
 
         console.log(data[0].lat);
         console.log(data[0].lon);
@@ -82,7 +82,7 @@
     <div class="future-forecast">
 
         <div class="today" id="current-temp">
-            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
             <div class="other">
                 <div class="day">Monday</div>
                 <div class="temp">Night - 25.6&#176; C</div>
@@ -93,31 +93,31 @@
         <div class="weather-forecast" id="weather-forecast">
             <div class="weather-forecast-item">
                 <div class="day">Tue</div>
-                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
                 <div class="temp">Night - 25.6&#176; C</div>
                 <div class="temp">Day - 35.6&#176; C</div>
             </div>
             <div class="weather-forecast-item">
                 <div class="day">Wed</div>
-                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
                 <div class="temp">Night - 25.6&#176; C</div>
                 <div class="temp">Day - 35.6&#176; C</div>
             </div>
             <div class="weather-forecast-item">
                 <div class="day">Thur</div>
-                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
                 <div class="temp">Night - 25.6&#176; C</div>
                 <div class="temp">Day - 35.6&#176; C</div>
             </div>
             <div class="weather-forecast-item">
                 <div class="day">Fri</div>
-                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
                 <div class="temp">Night - 25.6&#176; C</div>
                 <div class="temp">Day - 35.6&#176; C</div>
             </div>
             <div class="weather-forecast-item">
                 <div class="day">Sat</div>
-                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
                 <div class="temp">Night - 25.6&#176; C</div>
                 <div class="temp">Day - 35.6&#176; C</div>
             </div>
