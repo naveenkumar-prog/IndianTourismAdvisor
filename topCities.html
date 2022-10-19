@@ -1,0 +1,55 @@
+<html>
+<head>
+<script src="jquery-2.1.4.js"></script>
+<script lang="javascript" src="xlsx.full.min.js"></script>
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+<div id="navbar"><span>Busiest City </span></div>
+
+<script>
+        $('excel/ForecastedCity2').change(function(e){
+                var reader = new FileReader();
+                reader.readAsArrayBuffer(e.target.files[0]);
+
+                reader.onload = function(e) {
+                        var data = new Uint8Array(reader.result);
+                        var wb = XLSX.read(data,{type:'array'});
+
+                        var htmlstr = XLSX.write(wb,{sheet:"topCities", type:'binary',bookType:'html'});
+                        $('#wrapper')[1].innerHTML += htmlstr;
+                }
+        });
+
+window.onload = function () {
+        
+var chart = new CanvasJS.Chart("chartContainer", {
+        animationEnabled: true,
+        
+        title:{
+                text:"Busiest City in 2023 "
+        },
+        axisX:{
+                interval: 1
+        },
+        axisY2:{
+                interlacedColor: "rgba(1,77,101,.2)",
+                gridColor: "rgba(1,77,101,.1)",
+                title: "Number of tourist arrival in million"
+        },
+        data: [{
+                type: "bar",
+                name: "companies",
+                axisYType: "secondary",
+                color: "#014D65",
+                data:htmlstr
+                }]
+});
+chart.render();
+
+}
+
+</script>
+</body>
+</html>
