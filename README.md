@@ -9,3 +9,8 @@ iii. Details of the tourist spots are displayed with images as a cart. So that i
 iv. Climate module has been added. Through which the travelers can know the current and forecasted weather details of any location.
 v. Current Situation module is created. In this module the tweets of the particular location will be analyzed and the sentiment analysis regarding to that location’s tweets will be displayed as a pie-chart.
 vi. Busiest and least busy city modules are attached which displays top ten busiest and least ten busiest cities of India in the next year will be displayed with the help of bar chart.
+
+
+# Deployment Link
+
+https://indiantoruism-guide.herokuapp.com/
