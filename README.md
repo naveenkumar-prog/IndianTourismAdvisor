@@ -14,3 +14,16 @@ vi. Busiest and least busy city modules are attached which displays top ten busi
 # Deployment Link
 
 https://indiantoruism-guide.herokuapp.com/
+
+# Output
+
+![home](https://github.com/user-attachments/assets/0052825e-14ae-4b7d-9121-a6e02c921080)
+
+![category](https://github.com/user-attachments/assets/99a8f6d8-317e-43ac-bc90-5b52f72c81eb)
+
+![climate](https://github.com/user-attachments/assets/e19feb1e-ea7f-4cfc-aef3-7a98621f07ea)
+
+![busy](https://github.com/user-attachments/assets/3ea56f73-43d1-4a99-bcb3-6b1d1e5da86d)
+
+![nlp](https://github.com/user-attachments/assets/f723dfdc-a912-45c6-9206-a5bd6a379ad0)
+
