@@ -11,10 +11,6 @@ v. Current Situation module is created. In this module the tweets of the particu
 vi. Busiest and least busy city modules are attached which displays top ten busiest and least ten busiest cities of India in the next year will be displayed with the help of bar chart.
 
 
-# Deployment Link
-
-https://indiantoruism-guide.herokuapp.com/
-
 # Output
 
 ![home](https://github.com/user-attachments/assets/0052825e-14ae-4b7d-9121-a6e02c921080)
